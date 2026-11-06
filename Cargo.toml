@@ -1,0 +1,13 @@
+[package]
+name = "itank"
+version = "0.1.0"
+edition = "2021"
+description = "A terminal Tank90-style game written in Rust"
+license = "MIT"
+
+[dependencies]
+crossterm = "0.28"
+
+[profile.release]
+lto = true
+opt-level = 3
